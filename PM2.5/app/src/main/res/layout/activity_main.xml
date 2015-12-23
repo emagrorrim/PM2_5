@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/back_ground_image"
+        android:gravity="center_vertical"
+        >
+
+
+        <EditText
+            android:id="@+id/city_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorHint"
+            android:textAlignment="center"
+            android:hint="Please Input City Name:"
+            />
+
+        <Button
+            android:id="@+id/request_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="100dp"
+            android:text="Query"
+            android:textColor="@color/colorText"
+            android:background="@drawable/corner"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>

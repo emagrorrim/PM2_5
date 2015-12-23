@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_position_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:textSize="16sp"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_weight="10">
+
+        <TextView
+            android:id="@+id/item_pm_25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textSize="12sp"
+            android:textColor="#8C8C8C"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:id="@+id/item_quality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textSize="12sp"
+            android:textColor="#8C8C8C"
+            android:paddingBottom="15dp"
+            android:layout_marginEnd="10dp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/pollution_color_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark" />
+
+</LinearLayout>

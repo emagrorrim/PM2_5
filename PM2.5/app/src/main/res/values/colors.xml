@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorHint">#AAAAAA</color>
+    <color name="colorBackGround">#43485A</color>
+    <color name="colorPollution0">#02E300</color>
+    <color name="colorPollution1">#FFFF00</color>
+    <color name="colorPollution2">#FF7E00</color>
+    <color name="colorPollution3">#FF0000</color>
+    <color name="colorPollution4">#98004B</color>
+    <color name="colorPollution5">#7E0023</color>
+</resources>
